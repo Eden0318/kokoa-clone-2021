@@ -17,3 +17,12 @@
 .icon-row__icon span {
   margin-top: 15px;
 }
+
+.icon-nextline {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon-account {
+  margin-right: 540px;
+}
