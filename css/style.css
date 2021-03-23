@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "variables.css";
+
 /* components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
@@ -11,6 +12,7 @@
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -19,4 +21,18 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.remmended__friends {
+  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-left: 25px;
+  margin-top: 70px;
+  margin-left: 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.remmended__nofriends {
+  padding: 50px;
+  text-align: center;
 }
